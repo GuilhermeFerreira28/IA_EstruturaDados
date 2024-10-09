@@ -1,0 +1,98 @@
+#Inicializando um dicionário
+meuDicionario = {"nome": "Guilherme", "idade":30, "solteiro":True, "Esportes":{"futebol","basquete"}}
+
+print(meuDicionario)
+
+#Não pode ter valor duplicado ( caso tenha irá prevalecer o ultimo nome informado)
+
+meuDicionario = {
+            "nome": "Guilherme",
+            "nome": "Jose",
+            "idade":30, 
+            "solteiro":True,
+            "Esportes":["futebol","basquete"]}
+
+print(meuDicionario)
+
+#Tamanho de um dicionário
+
+meuDicionario = {
+            "nome": "Guilherme",
+            "idade":30, 
+            "solteiro":True,
+            "Esportes":["futebol","basquete"]}
+
+print(len(meuDicionario))
+
+# Itens de um dicionário
+
+meuDicionario = {
+            "nome": "Guilherme",
+            "idade":30, 
+            "solteiro":True,
+            "Esportes":["futebol","basquete"]}
+
+print(type(meuDicionario))
+
+# Acesso aos itens de um dicionário
+
+meuDicionario = {
+            "nome": "Guilherme",
+            "idade":30, 
+            "solteiro":True,
+            "Esportes":["futebol","basquete"]}
+
+print(meuDicionario["nome"])
+print(meuDicionario.get("nome"))
+
+# Lista de todas as chaves de um dicionário
+
+meuDicionario = {
+            "nome": "Guilherme",
+            "idade":30, 
+            "solteiro":True,
+            "Esportes":["futebol","basquete"]}
+
+print(meuDicionario.keys())
+
+# Listar somente os valores do dicionário
+
+meuDicionario = {
+            "nome": "Guilherme",
+            "idade":30, 
+            "solteiro":True,
+            "Esportes":["futebol","basquete"]}
+
+print(meuDicionario.values())
+
+# Recuperar os itens de um dicionário ( lista de tuplas )
+
+meuDicionario = {
+            "nome": "Guilherme",
+            "idade":30, 
+            "solteiro":True,
+            "Esportes":["futebol","basquete"]}
+
+print(meuDicionario.items())
+
+
+# Verificar se uma chave existe no dicionário
+
+meuDicionario = {
+            "nome": "Guilherme",
+            "idade":30, 
+            "solteiro":True,
+            "Esportes":["futebol","basquete"]}
+
+if "nome" in meuDicionario:
+    print("A chave nome existe no dicionário")
+
+# Alteração de valores em um dicionário
+
+meuDicionario = {
+            "nome": "Guilherme",
+            "idade":30, 
+            "solteiro":True,
+            "Esportes":["futebol","basquete"]}
+
+
